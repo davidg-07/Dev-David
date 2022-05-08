@@ -7,7 +7,7 @@
 header div{
     height: 100vh;
     width: 100%;
-    background-image: url(../02-Challenge/img/IMG_0481.JPG);
+    background-image: url(../Dev-David/img/IMG_0481.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -64,7 +64,7 @@ h4{
     letter-spacing: 2px;
     font-size: 20px;
 }
-section: form{
+section form{
     width: 380px;
     max-width: 100%;
     position: relative;
@@ -162,4 +162,72 @@ h6{
     display: inline-flex;
     align-items: center;
     margin-bottom: 300px;
+}
+.button{
+    background-color: magenta;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid magenta;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background:rgb(54, 20, 93);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: magenta;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid magenta;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(54, 20, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
 }
